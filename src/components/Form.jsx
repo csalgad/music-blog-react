@@ -58,9 +58,7 @@ function Form (){
 
             <InputLabel forInput={tField.forInput} labelString={tField.labelString}></InputLabel>
             <TextArea textId={tField.forInput} textName={tField.forInput} textLength={tField.textLength} required={tField.required}></TextArea>
-            <br></br>
-
-            <button type="submit">Submit</button>
+            <br></br>            
         </form>                                
     )
 }

@@ -1,0 +1,9 @@
+import React from 'react';
+
+function FormButton({handleButtonClick}){
+    return(
+        <button type="submit" onClick={handleButtonClick}>Submit</button>
+    );
+}
+
+export default FormButton;

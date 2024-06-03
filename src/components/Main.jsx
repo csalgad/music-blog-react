@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import Form from "./Form"
+import FormButton from "./FormButton"
 
 function Main(){              
     const [userName, setUserName] = useState('');
@@ -21,6 +22,7 @@ function Main(){
             <main>
                  {title(userName)}                                  
                  <Form></Form>
+                 <FormButton handleButtonClick={handleNameSubmit}></FormButton>
             </main>
         </>        
     )        
